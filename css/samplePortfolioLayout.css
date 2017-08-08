@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    color: #242424;
+}
+
+.top {
+    display: flex;
+   
+    height: 70px;
+    
+}
+
+.greetings {
+    display: flex;
+    flex: 1;
+    border: 1.5px solid #616060;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    
+}
+
+h2 {
+    
+}
+
+h3 {
+   
+}
+
+.menu {
+    display: flex;
+    flex: 2;
+    border: 1.5px solid #616060;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.middle {
+    display: flex;
+    
+    width: 100%;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.large-middle {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #616060; 
+}
+
+.small-middle {
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    /*align-content: stretch; */
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+}
+
+.small-middle-top, .small-middle-bottom {
+    display: flex;
+    flex: 1;
+    height: 50%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.work1, .work2, .work3, .work4 {
+    border: 1.5px solid #616060;   
+    width: 50%;
+    height: 100%;
+}
+
+.bottom {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    border-bottom: 1.5px solid #616060; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.work5, .work6, .work7, .work8 {
+    border: 1.5px solid #616060; 
+    width: 25%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
